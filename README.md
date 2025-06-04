@@ -60,7 +60,6 @@ defi-staking-app/
 ├── truffle-config.js
 └── README.md
 
-
 ## 🔐 Smart Contract Summary
 
 - **Tether (USDT):** Mock stablecoin used for staking.
