@@ -41,32 +41,6 @@ The project consists of 3 core layers:
 | Smart Contracts | Solidity contracts for USDT, RWD, and DecentralBank |
 | Blockchain Backend | Local Ethereum blockchain via Ganache |
 
-## 📂 Project Structure
-
-defi-staking-app/
-├── client/   # React 
-│   ├── public/
-│   └── src/
-│       ├── components/
-│       │   ├── Airdrop.js
-│       │   ├── Main.js
-│       │   ├── Navbar.js
-│       ├── ParticleSettings.js
-│       ├── App.js
-│       └── index.js
-├── contracts/                 # Solidity smart contracts
-│   ├── Tether.sol
-│   ├── RWD.sol
-│   └── DecentralBank.sol
-├── migrations/                # Truffle migration scripts
-│   ├── 1_initial_migration.js
-│   ├── 2_deploy_contracts.js
-├── test/                      # Smart contract tests (Mocha + Chai)
-│   └── decentralbank.test.js
-├── truffle-config.js          # Truffle configuration
-├── package.json               # Project metadata and dependencies
-├── README.md
-
 ## 🔐 Smart Contract Summary
 
 - **Tether (USDT):** Mock stablecoin used for staking.
