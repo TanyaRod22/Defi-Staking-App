@@ -44,7 +44,7 @@ The project consists of 3 core layers:
 ## 📂 Project Structure
 
 defi-staking-app/
-├── client/                     # React frontend
+├── client/   # React 
 │   ├── public/
 │   └── src/
 │       ├── components/
