@@ -58,20 +58,20 @@ The project consists of 3 core layers:
 
 ### Steps
 
-# Clone the repo
+Clone the repo
 git clone https://github.com/tanyarodrigues/defi-staking-app.git
 cd defi-staking-app
 
-# Install dependencies
+Install dependencies
 npm install
 
-# Compile smart contracts
+Compile smart contracts
 truffle compile
 
-# Start Ganache (ensure it's running on port 8545)
+Start Ganache (ensure it's running on port 8545)
 
-# Deploy contracts
+Deploy contracts
 truffle migrate
 
-# Run the frontend
+Run the frontend
 npm start
